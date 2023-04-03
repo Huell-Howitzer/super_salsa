@@ -1,0 +1,42 @@
+export CAL_DIR="$HOME/fac/cal"
+export FAC_DIR="$HOME/fac"
+export MY_LOGS_DIR="$HOME/Documents/my_logfiles" 														# Logs made by custom bash scripts are put here
+export PATH="${PATH:+${PATH}:}$HOME/.salsa/build/bin" 										# Add program paths to PATH
+export PAY_BILLS_PATH="$HOME/.salsa/salsa/pay_bills/src" 										# A Program I made that opens browsers so I can pay bills
+
+
+export SALSA_ALIAS_FILE="$HOME/.salsa/.alias"
+export SALSA_BASE_DIR="$HOME/.salsa"
+export SALSA_BASH_INCLUDE_DIR="$HOME/.salsa/include/bash_include"
+export SALSA_BASH_LIBS_DIR="$HOME/.salsa/lib/bash_libs"
+export SALSA_BIN_DIR="$HOME/.salsa/build/bin"
+export SALSA_BUILD_DIR="$HOME/.salsa/build"
+export SALSA_SCRIPTS_DIR="$HOME/.salsa/src/scripts"
+export SALSA_SOURCE_DIR="$HOME/.salsa/src"
+
+export THOUGHT_DIR="$HOME/fac/cal/jot"
+export TODO_DIR="$HOME/.local/state/todo"
+
+
+export XDG_CACHE_DIR="$HOME/.local/state" 																	# Defines the base directory relative to which user-specific non-essential data files are stored
+export XDG_CONFIG_HOME="$HOME/.config"																			# base directory relative to which user-specific CONFIGURATION files should be stored
+export XDG_DATA_HOME="$HOME/.local/share" 																	# defines the base directory relative to which user-specific DATA files should be stored
+export XDG_STATE_HOME="$HOME/.local/state" 																	# defines the base directory relative to which user-specific STATE files should be stored 
+#export PATH="${PATH:+${PATH}:}$PAY_BILLS_PATH"
+
+
+
+
+
+
+
+
+
+# XDG_DATA_DIRS $XDG_DATA_DIRS defines the preference-ordered set of
+# base directories 
+# to search for data files in addition to the $XDG_DATA_HOME base 
+# directory. The directories in $XDG_DATA_DIRS should be 
+# seperated with a colon ':'. 
+
+
+#export XDG_DATA_DIRS

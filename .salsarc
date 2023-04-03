@@ -1,0 +1,19 @@
+#!/usr/bin/env bash
+
+source $HOME/.salsa/.paths
+source $SALSA_ALIAS_FILE
+
+for entry in $HOME/.salsa/src/scripts/*; do cp $entry $HOME/.salsa/build/bin/$(basename $entry .sh); done
+chmod +x $HOME/.salsa/build/bin/*
+
+# If there's a .env file, Load the Environment Variables
+if [ ! -f .env ]; then
+	export $(cat $SALSA_BASE_DIR/.env | xargs)
+fi
+
+#aws-artifact-login=
+
+source $HOME/environments/v3n0m/bin/activate
+export PATH=$PATH:$SALSA_BASE_DIR/build/bin/
+
+fortune | cowsay -f dragon | lolcat --animate --duration=3 --speed=200
