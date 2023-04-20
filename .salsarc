@@ -1,19 +1,43 @@
 #!/usr/bin/env bash
 
-source $HOME/.salsa/.paths
-source $SALSA_ALIAS_FILE
+function prefix_and_copy_scripts {
+	local dir_path="$1"
+	for script in "$dir_path"/*; do
+		if [[ -f "$script" ]]; then
+			base=$(basename "$script")
+			filename="${base%.*}"
+			cp "$script" "/home/ryan-howell/.salsa/build/bin/sa_$filename"
+			chmod +x "/home/ryan-howell/.salsa/build/bin/sa_$filename"
+		fi
+	done
+}
 
-for entry in $HOME/.salsa/src/scripts/*; do cp $entry $HOME/.salsa/build/bin/$(basename $entry .sh); done
-chmod +x $HOME/.salsa/build/bin/*
+source "/home/ryan-howell/.salsa/.paths"
+source "/home/ryan-howell/.salsa/.alias"
+source "/home/ryan-howell/.salsa/.env"
+
+#for entry in /home/ryan-howell/.salsa/scripts/bash_scripts/*; do cp "$entry" /home/ryan-howell/.salsa/build/bin/"$(basename "$entry" .sh)"; done
+#for entry in /home/ryan-howell/.salsa/scripts/python_scripts/*; do cp "$entry" /home/ryan-howell/.salsa/build/bin/"$(basename "$entry" .py)"; done
+#chmod +x /home/ryan-howell/.salsa/build/bin/*
+
+prefix_and_copy_scripts "/home/ryan-howell/.salsa/scripts/python_scripts"
+prefix_and_copy_scripts "/home/ryan-howell/.salsa/scripts/bash_scripts"
 
 # If there's a .env file, Load the Environment Variables
-if [ ! -f .env ]; then
-	export $(cat $SALSA_BASE_DIR/.env | xargs)
-fi
+#if [ ! -f .env ]; then
+#	export "$(cmd" /home/ryan-howell/.salsa"/.env | xargs)"
+#fi
+
+source /home/ryan-howell/.salsa/.env
+export $(cut -d= -f1 /home/ryan-howell/.salsa/.env)
 
 #aws-artifact-login=
 
-source $HOME/environments/v3n0m/bin/activate
-export PATH=$PATH:$SALSA_BASE_DIR/build/bin/
+source /home/ryan-howell/environments/v3n0m/bin/activate
+export PATH=$PATH:/home/ryan-howell/.salsa/build/bin/
+#export PATH=$PATH:/usr/local/go/bin
+#export GOPATH="/usr/local/go/bin"
+
+#export PATH="$PATH:$(go env GOPATH)/bin"
 
 fortune | cowsay -f dragon | lolcat --animate --duration=3 --speed=200

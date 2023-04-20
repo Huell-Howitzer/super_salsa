@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="TestDataGeneratorSettingsState">
+    <option name="userDefinedGenerators">
+      <list>
+        <CustomGeneratorSettings>
+          <option name="data">
+            <map>
+              <entry key="dictionary_key" value="January&#10;February&#10;March&#10;April&#10;May&#10;June&#10;July&#10;August&#10;September&#10;October&#10;November&#10;December" />
+            </map>
+          </option>
+          <option name="name" value="month" />
+        </CustomGeneratorSettings>
+        <CustomGeneratorSettings>
+          <option name="data">
+            <map>
+              <entry key="dictionary_key" value="Sunday&#10;Monday&#10;Tuesday&#10;Wednesday&#10;Thursday&#10;Friday&#10;Saturday" />
+            </map>
+          </option>
+          <option name="name" value="weekday" />
+        </CustomGeneratorSettings>
+        <CustomGeneratorSettings>
+          <option name="data">
+            <map>
+              <entry key="dictionary_key" value="Yes&#10;No" />
+            </map>
+          </option>
+          <option name="name" value="true_false" />
+        </CustomGeneratorSettings>
+        <CustomGeneratorSettings>
+          <option name="data">
+            <map>
+              <entry key="dictionary_key" value="true&#10;false" />
+            </map>
+          </option>
+          <option name="name" value="bool" />
+        </CustomGeneratorSettings>
+        <CustomGeneratorSettings>
+          <option name="data">
+            <map>
+              <entry key="dictionary_key" value="to be&#10;not to be&#10;that is the question" />
+            </map>
+          </option>
+          <option name="name" value="hamlet" />
+        </CustomGeneratorSettings>
+      </list>
+    </option>
+  </component>
+</project>
