@@ -1,0 +1,47 @@
+#!/usr/bin/env python3
+
+import argparse
+
+
+class Memory:
+    def __init__(self, size, unit):
+        self.size = size
+        self.unit = unit
+        self.units = {
+            'B': 0,
+            'KB': 1,
+            'MB': 2,
+            'GB': 3,
+            'TB': 4,
+            'PB': 5
+        }
+
+    def convert_memory_size(self, to_unit):
+        if to_unit not in self.units:
+            raise ValueError("Invalid target unit")
+        size_in_bytes = self.size * (1024 ** self.units[self.unit])
+        size_in_target_unit = size_in_bytes / (1024 ** self.units[to_unit])
+        return size_in_target_unit, to_unit
+
+
+if __name__ == '__main__':
+    parser = argparse.ArgumentParser(
+        description='Convert memory sizes to other memory sizes')
+    size = parser.add_argument(
+        'size', type=int, help='Size of memory to convert')
+    unit = parser.add_argument('unit', choices=[
+        'B', 'KB', 'MB', 'GB', 'TB', 'PB'], help='Unit of memory size')
+    parser.add_argument('--to', dest='to_unit', choices=[
+                        'B', 'KB', 'MB', 'GB', 'TB', 'PB'], help='Target unit of memory size')
+    args = parser.parse_args()
+
+    memory = Memory(size, str(unit))
+
+    size_in_bytes = args.size * (1024 ** memory.units[args.unit])
+    size_in_target_unit = memory.convert_memory_size(
+        args.to_unit) if args.to_unit else None
+
+    print(f"{args.size} {args.unit} is equivalent to:")
+    print(f"{size_in_bytes} B")
+    if size_in_target_unit:
+        print(f"{size_in_target_unit:.2f} {args.to_unit}")

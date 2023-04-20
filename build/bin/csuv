@@ -1,0 +1,80 @@
+#!/usr/bin/env python
+
+"""
+:author: Ryan M. Howell
+:email:  rmhowell@protonmail.com
+:phone:  (760)-793-8922
+
+
+:copyright:
+
+
+
+:date: 04/09/2023
+:version: v1
+
+
+
+:brief:
+
+
+:notes:
+
+
+"""
+
+import argparse
+import csv
+
+
+# create the argparser object
+parser = argparse.ArgumentParser(
+    description="Removes any row from a CSV file if any field is found to have duplicates.")
+
+# add arguments for input file and output file
+parser.add_argument('input_file', type=str, help='path to input file')
+parser.add_argument('output_file', type=str, help='path to output file')
+
+# add optional verbose flag
+parser.add_argument('-v', '--verbose', action='store_true',
+                    help='print verbose output')
+
+# add optional help flag
+parser.add_argument('-m', '--helpme', action='help',
+                    help='display this help menu')
+
+#parser.add_argument('-r', '--author', help='show the author\'s contact info')
+
+# parse the arguments
+args = parser.parse_args()
+
+
+# use the arguments in the script
+if args.verbose:
+    print(f'Reading input from {args.input_file}')
+    print(f'Writing output to {args.output_file}')
+
+
+# open input and output CSV files
+with open(args.input_file, 'r', newline='') as infile, \
+        open(args.output_file, 'w', newline='') as outfile:
+
+    reader = csv.reader(infile)
+    writer = csv.writer(outfile)
+
+    # keep track of seen values
+    seen_values = set()
+
+    # iterate over rows in input CSV
+    for row in reader:
+        # check if any field has a duplicate value
+        for value in row:
+            if value in seen_values:
+                break
+            seen_values.add(value)
+        else:
+            # no duplicate values found, write row to output CSV
+            writer.writerow(row)
+
+        # reset seen values for next row
+        seen_values.clear()

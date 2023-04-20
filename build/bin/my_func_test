@@ -1,0 +1,9 @@
+#!/usr/bin/env bash
+
+source "$BOOTLEG_BIN_DIR/myfunc"
+
+myfunc result
+echo $result
+result2=$(myfunc)
+echo $result2
+
