@@ -1,6 +1,12 @@
 .env
+**/.ts/**
 venv/*
 .ts/*
 .keys/*
 
 /resources/notes/
+/resources/tmp/prompts/
+
+build/*
+/docs/build/*
+
