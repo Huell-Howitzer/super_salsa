@@ -1,4 +1,5 @@
 alias ai="sgpt"
+alias apt="nala"
 alias cal="cal | lolcat -a -d 500"
 alias date="date | lolcat -a -d 500"
 alias ff="firefox"
@@ -10,8 +11,12 @@ alias lst="lsd --tree"
 alias ohmyzsh="nvim ~/.oh-my-zsh"
 alias portcheck="netstat -a"
 alias python="python3"
+alias sap="tree -L 2"
+alias shrub="tree -L 3"
+alias sprout="tree -L 1"
+alias sudo='sudo '
 alias vi="nvim"
 alias vim="nvim"
 alias zconf="nvim ~/.zshrc"
 #alias portcheck = 'netstat -a lsof -i tcp'
-#alias jdn="vim ${THOUGHT_DIR}/$(date "+%s".tht)"
+

@@ -1,0 +1,306 @@
+—
+name: "Ryan M. Howell"
+date-of-birth: "10/07/1992"
+title: "Home"
+
+== brief: "The Home Page for my largest Obsidian Vault"
+
+= Welcome To My Digital Garden
+
+== Lost? See my link:./%F0%9F%97%BA%EF%B8%8F.html[🗺️]
+
+'''
+
+== About Me
+
+First, I **LOVE** link:./%5BUniverse-of-Notes%2FDomain-of-Science%2FComputer-Science%2FComputers.html[Computers]](https://publish.obsidian.md/ryan-howell/Notes/My+Academics/Domain+of+Science/Computer+Science/[[Universe of Notes/Domain of Science/Computer Science/link:./Notes%2FComputers.html[Computers]|link:./Notes%2FComputers.html[Computers]]]), I love most things having to do with link:./Notes%2FComputers.html[computers], and that accounts +
+for almost everything in here. 
+
+I live in https://publish.obsidian.md/ryan-howell/California[California]
+
+I'm very fortunate that I get to write software for a living
+
+I'm an executive at a fictional company called the https://publish.obsidian.md/ryan-howell/Salsa+Group[Salsa Group]. +
+The company "exists" for educational purposes and anyone is welcome to join. The original goal +
+was to learn about technologies like https://publish.obsidian.md/ryan-howell/AWS[AWS], https://publish.obsidian.md/ryan-howell/JIRA[JIRA], https://publish.obsidian.md/ryan-howell/GitHub[GitHub], etc… basically anything that +
+you would want to know to write software professionally, or with a team. I find that it's hard to +
+learn about these things because we often learn how to use them in the absence of any +
+meaningful context. So basically Salsa Group is a kind of simulator that aims to provide that +
+context. However, there's nothing preventing it from being used and simultaneously creating +
+something that one can be proud of. In that sense, it's meant to solicit for collaboration.
+
+AliceJohnHello John, how are you?John, can you hear me?Hi Alice, I can hear you!I feel great!AliceJohn
+
+== https://publish.obsidian.md/ryan-howell/Salsa+Group[Salsa Group]
+
+= Resource Login
+
+Name
+
+Login
+
+https://publish.obsidian.md/ryan-howell/Atlassian[Atlassian]
+
+https://team.atlassian.com/?cloudId=f7f31fa0-2885-484f-8a34-04abf51bb9a1[`fas:Atlassian`]
+
+https://publish.obsidian.md/ryan-howell/Confluence[Confluence]
+
+https://salsagroup.atlassian.net/wiki[`fas:Confluence`]
+
+https://publish.obsidian.md/ryan-howell/JIRA[JIRA]
+
+https://salsagroup.atlassian.net/[`fas:Jira`]
+
+https://publish.obsidian.md/ryan-howell/AWS[AWS]
+
+[`fas:Aws`](https://publish.obsidian.md/ryan-howell/[[Universe of Notes/My References/Articles + Gists + Snippets/link:./Notes%2FArticles-%2B-Gists-%2B-Snippets%2Fls.html[ls]|link:./Notes%2FMy-References%2FArticles-%2B-Gists-%2B-Snippets%2Fls.html[ls]]]#)
+
+'''
+
+== https://aws.com/[AWS]
+
+== https://salsa-group.signin.aws.amazon.com/console[`fas:Aws` Salsa Group Login]
+
+'''
+
+https://saber-honey-469.notion.site/[[Notes/Unfinished/[[Notes/Unfinished/[[Notes/Unfinished/Bash|Bash]]|Bash]]|Bash]]-5f4afbae82a84f56a937899939baa1b9[More Notes]
+
+'''
+
+= `fas:Docker` https://publish.obsidian.md/ryan-howell/Docker[Docker]
+
+== https://hub.docker.com/[Docker]
+
+'''
+
+= `fas:Github` https://publish.obsidian.md/ryan-howell/GitHub[GitHub]
+
+== https://github.com/[GitHub]
+
+'''
+
+= `fas:Gitlab` https://publish.obsidian.md/ryan-howell/GitLab[GitLab]
+
+== https://gitlab.com/[GitLab]
+
+'''
+
+= https://publish.obsidian.md/ryan-howell/JetBrains[JetBrains]
+
+'''
+
+== https://publish.obsidian.md/ryan-howell/Space[Space]
+
+=== https://salsagroup.jetbrains.space/[JetBrains Space Login]
+
+'''
+
+== https://publish.obsidian.md/ryan-howell/TeamCity[TeamCity]
+
+=== https://salsagroup.teamcity.com/[TeamCity Login]
+
+'''
+
+== https://publish.obsidian.md/ryan-howell/YouTrack[YouTrack]
+
+=== https://salsagroup.youtrack.cloud/[YouTrack Login]
+
+'''
+
+= https://publish.obsidian.md/ryan-howell/O'Reilly[O'Reilly]
+
+'''
+
+== https://oreillymedia.com/[Login]
+
+https://publish.obsidian.md/ryan-howell/ls#aws[#aws] +
+https://publish.obsidian.md/ryan-howell/ls#docker[#docker] +
+https://publish.obsidian.md/ryan-howell/ls#jira[#jira] +
+https://publish.obsidian.md/ryan-howell/ls#gitlab[#gitlab] +
+https://publish.obsidian.md/ryan-howell/ls#github[#github] +
+[](https://publish.obsidian.md/ryan-howell/Oreilly)[#oreilly](https://publish.obsidian.md/ryan-howell/ls#oreilly) +
+https://publish.obsidian.md/ryan-howell/ls#salsagroup[#salsagroup] +
+https://publish.obsidian.md/ryan-howell/ls#atlassian[#atlassian] +
+https://publish.obsidian.md/ryan-howell/ls#confluence[#confluence] +
+https://publish.obsidian.md/ryan-howell/JIRA[JIRA] +
+https://publish.obsidian.md/ryan-howell/Confluence[Confluence]
+
+'''
+
+= `fas:Python` https://publish.obsidian.md/ryan-howell/Python[Python]
+
+= My Interests
+
+== 💻 link:./%5BUniverse-of-Notes%2FDomain-of-Science%2FComputer-Science%2FComputers.html[Computers]](https://publish.obsidian.md/ryan-howell/Notes/My+Academics/Domain+of+Science/Computer+Science/[[Notes/Unfinished/Computers|Computers]])
+
+'''
+
+= 
+
+tags: +
+- " https://publish.obsidian.md/ryan-howell/ls#aws[#aws]" +
+- " https://publish.obsidian.md/ryan-howell/ls#docker[#docker]" +
+- " https://publish.obsidian.md/ryan-howell/ls#jira[#jira]" +
+- " https://publish.obsidian.md/ryan-howell/ls#gitlab[#gitlab] +
+- " https://publish.obsidian.md/ryan-howell/ls#github[#github]" +
+- " [#salsagroup](https://publish.obsidian.md/ryan-howell/[[Universe of Notes/My References/Articles + Gists + Snippets/ls|ls]]#salsagroup)" +
+- " [#salsa](https://publish.obsidian.md/ryan-howell/[[Universe of Notes/My References/Articles + Gists + Snippets/link:./Notes%2FArticles-%2B-Gists-%2B-Snippets%2Fls.html[ls]|ls]]#salsa)" +
+- " https://publish.obsidian.md/ryan-howell/atlassian[atlassian]" +
+- " [#confluence](https://publish.obsidian.md/ryan-howell/[[Universe of Notes/My References/Articles + Gists + Snippets/ls|link:./Notes%2FArticles-%2B-Gists-%2B-Snippets%2Fls.html[ls]]]#confluence)&quot; +
+aliases: +
+- link:./Home.html[Home] +
+- Link Directory +
+- Sitepage
+
+== You Are Here: link:./%F0%9F%97%BA%EF%B8%8F.html[🗺️]
+
+== About Me
+
+First, I *LOVE* link:./Notes%2FUnfinished%2FComputers.html[Notes/Unfinished/Computers], I love most things having to do with computers, and that accounts
+for almost everything in here. 
+
+I live in link:./California.html[California]
+
+I'm very fortunate that I get to write software for a living
+
+I'm an executive at a fictional company called the link:./Salsa-Group.html[Salsa Group].
+The company "exists" for educational purposes and anyone is welcome to join. The original goal
+was to learn about technologies like link:./AWS.html[AWS], link:./JIRA.html[JIRA], link:./GitHub.html[GitHub], etc… basically anything that
+you would want to know to write software professionally, or with a team. I find that it's hard to
+learn about these things because we often learn how to use them in the absence of any
+meaningful context. So basically Salsa Group is a kind of simulator that aims to provide that
+context. However, there's nothing preventing it from being used and simultaneously creating
+something that one can be proud of. In that sense, it's meant to solicit for collaboration.
+
+[source,mermaid]
+----
+sequenceDiagram
+    Alice->>+John: Hello John, how are you?
+    Alice->>+John: John, can you hear me?
+    John-->>-Alice: Hi Alice, I can hear you!
+    John-->>-Alice: I feel great!
+----
+
+== Salsa Group
+
+= Resource Login
+
+|===
+|Name |Login
+
+|link:./Atlassian.html[Atlassian] |https://team.atlassian.com?cloudId=f7f31fa0-2885-484f-8a34-04abf51bb9a1[`fas:Atlassian`]
+|link:./Confluence.html[Confluence] |https://salsagroup.atlassian.net/wiki[`fas:Confluence`]
+|link:./JIRA.html[JIRA] |https://salsagroup.atlassian.net[`fas:Jira`]
+|link:./AWS.html[AWS] |link:[`fas:Aws`]
+|===
+
+'''
+
+== https://aws.com[AWS]
+
+== https://salsa-group.signin.aws.amazon.com/console[`fas:Aws` Salsa Group Login]
+
+'''
+
+https://saber-honey-469.notion.site/Bash-5f4afbae82a84f56a937899939baa1b9[More Notes]
+
+'''
+
+= `fas:Docker` link:./Docker.html[Docker]
+
+== https://hub.docker.com[Docker]
+
+'''
+
+= `fas:Github` link:./GitHub.html[GitHub]
+
+== https://github.com[GitHub]
+
+'''
+
+= `fas:Gitlab` link:./GitLab.html[GitLab]
+
+== https://gitlab.com[GitLab]
+
+'''
+
+= JetBrains
+
+'''
+
+== Space
+
+=== https://salsagroup.jetbrains.space/[JetBrains Space Login]
+
+'''
+
+== TeamCity
+
+=== https://salsagroup.teamcity.com/[TeamCity Login]
+
+'''
+
+== YouTrack
+
+=== https://salsagroup.youtrack.cloud/[YouTrack Login]
+
+'''
+
+= O'Reilly
+
+'''
+
+== https://oreillymedia.com[Login]
+
+= aws
+
+= docker
+
+= jira
+
+= gitlab
+
+= github
+
+link:Oreilly.md[#oreilly]
+
+= salsagroup
+
+= atlassian
+
+= confluence
+
+link:./JIRA.html[JIRA]
+link:./Confluence.html[Confluence]
+
+'''
+
+= `fas:Python` link:./Python-1.html[Python 1]
+
+= My Interests
+
+== 💻 link:./Notes%2FUnfinished%2FComputers.html[Notes/Unfinished/Computers]
+
+'''
+
+= 
+
+tags:
+ - " #aws"
+ - " #docker"
+ - " #jira"
+ - " #gitlab
+ - " #github"
+ - " #salsagroup"
+ - " #salsa"
+ - " link:./atlassian.html[atlassian]"
+ - " #confluence&quot;
+aliases:
+ - Home
+ - Link Directory
+
+----
+- Sitepage
+----
+
+'''

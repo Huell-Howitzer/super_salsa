@@ -11,6 +11,7 @@ export SALSA_BASH_INCLUDE_DIR="$HOME/.salsa/include/bash_include"
 export SALSA_BASH_LIBS_DIR="$HOME/.salsa/lib/bash_libs"
 export SALSA_BIN_DIR="$HOME/.salsa/build/bin"
 export SALSA_BUILD_DIR="$HOME/.salsa/build"
+export SALSA_CHAT_GPT_PROMPTS_DIR="$HOME/.salsa/resources/tmp/prompts"
 export SALSA_SCRIPTS_DIR="$HOME/.salsa/src/scripts"
 export SALSA_SOURCE_DIR="$HOME/.salsa/src"
 

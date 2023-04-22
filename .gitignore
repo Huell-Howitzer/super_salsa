@@ -1,4 +1,6 @@
 .env
 venv/*
 .ts/*
+.keys/*
 
+/resources/notes/
